@@ -1,0 +1,21 @@
+
+1. Find the area of a triangle where lengths of the three of its sides are 25, 63, 72.
+
+2. Determine whether a given year is a leap year in the Gregorian calendar. 
+
+3. Find 1st January is being a Sunday between 2014 and 2050.
+
+4. Write a JavaScript program where the program takes a random integer between 1 to 10. 
+   The user is then prompted to input a guess number. 
+   If the user input matches with guess number, the program will display a message "Good Work"
+   otherwise display a message "Not matched".
+   Use prompt() function. 
+
+5. Calculate days left until next Christmas.
+
+6. Check two given numbers and return true if one of the number is 50 or if their sum is 50.
+
+7. Check a given integer is within 20 of 100 or 400. 
+
+8. Remove a character at the specified position of a given string and return the new string. 
+
