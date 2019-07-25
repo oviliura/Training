@@ -18,4 +18,3 @@ function isLeapYear(inputYear){
     }
 }
 printResult(1900); */
-
