@@ -1,10 +1,9 @@
 function isLeapYear(inputYear){
     if((inputYear%400 == 0)||(inputYear%100 !=0 && inputYear%4 == 0)){
-        var laepOrNo = "leap";
+        var isLeap = true;
     }
     else{
-        var laepOrNo = "not leap";  
+        var isLeap = false;  
     }
-    return console.log("In the Gregorian calendar " + inputYear + " year is " + laepOrNo + ".");
+    return isLeap;
 }
-isLeapYear(900);
