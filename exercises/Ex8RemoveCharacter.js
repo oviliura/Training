@@ -1,7 +1,7 @@
 function removeCharacter(string , characterPosition){
-    var resultString = string.substring(0, characterPosition);
-    string = string.substring(characterPosition + 1);
+    var resultString = string.substring(0, characterPosition-1);
+    string = string.substring(characterPosition);
     resultString = resultString.concat(string);
     return resultString;
 }
-console.log(removeCharacter("12345", 2));
+console.log(removeCharacter("математика", 2));
