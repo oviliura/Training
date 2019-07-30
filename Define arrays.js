@@ -16,7 +16,6 @@ for(var i = 0; i<10; i++){
 for(var i = 0; i<10; i++){ 
     Full_Name[i]=Last_Name[i].concat(" ",First_Name[i]);
 }
-
 console.log(Last_Name);
 console.log(First_Name);
 console.log(Full_Name);
