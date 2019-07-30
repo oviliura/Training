@@ -7,15 +7,3 @@ function isLeapYear(inputYear){
     }
     return isLeap;
 }
-
-/* function printResult(inputYear){
-    var isLeap = isLeapYear(inputYear);
-    if(isLeap){
-        console.log("In the Gregorian calendar " + inputYear + " year is leap.");
-    }
-    else{
-        console.log("In the Gregorian calendar " + inputYear + " year is not leap.");
-    }
-}
-printResult(1900); */
-
