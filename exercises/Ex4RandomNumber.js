@@ -1,6 +1,7 @@
 function yourLucky(yourInput){
     var randomInt = Math.floor(Math.random() * 10);
     var userNumber = parseInt(prompt(yourInput + "Please enter an integer number between 1 and 10.", ""));
+
     if (userNumber > 0 && userNumber <= 10){
         if(randomInt == userNumber){
             alert("Good Work.");
