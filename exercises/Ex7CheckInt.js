@@ -1,9 +1,5 @@
 function checkInt(num){
-    if((num >= 20 && num <=100) || num == 400 ){
-        console.log("true");
-    }
-    else{
-        console.log("false");
-    }
+    return((num >= 20 && num <=100) || num == 400 );
 }
-checkInt(89);
+var result = checkInt(89);
+console.log(result);
