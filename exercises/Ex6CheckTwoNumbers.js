@@ -1,14 +1,5 @@
-function checkNumbers(a, b){
-    var isTrue = false;
-    if(a+b == 50){
-        isTrue = true;
-    }
-    else if(a == 50 || b == 50){
-        isTrue == true;
-    }
-    else{
-        isTrue == false;
-    }
-    return isTrue;
+function checkNumbers(x, y){
+    return ((x == 50 || y == 50) || (x + y == 50));
 }
-checkNumbers(-45, 95);
+var d = checkNumbers(-4, 95);
+console.log(d);
