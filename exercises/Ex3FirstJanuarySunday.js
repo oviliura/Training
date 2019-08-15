@@ -1,21 +1,20 @@
 function firstSundayInJanuary(){
     var firstYear = 2019;
     var lastYear = 2050;
-    var currYear = new Date(firstYear, 0, 01);
-    var i = 0;
-    var sundayInJanuary = [];
+    var currDate = new Date(firstYear, 0, 01);
+    var i = 0, j=0;
+    var sundayNewYear = [];
 
-    while(currYear.getFullYear() < lastYear){
-        currYear = new Date(firstYear+i, 0, 01);
+    while(currDate.getFullYear() < lastYear){
+        currDate = new Date(firstYear+j, 0, 01);
 
-        while(currYear.getDay()!=6){
-            currYear.setDate(currYear.getDate()+1);  //finding first Sunday in January
+        if(currDate.getDay()==6){
+            sundayNewYear[i] = currDate;
+            i++;
         }
-
-        sundayInJanuary[i] = currYear;
-        i++;
+        j++;        
     }
-    return sundayInJanuary;
+    return sundayNewYear;
 }
 
 var yourResult = firstSundayInJanuary();
