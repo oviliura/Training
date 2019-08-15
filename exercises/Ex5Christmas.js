@@ -1,13 +1,10 @@
-function nextChristmas(){ 
+function daysLeft(yourDate){ 
     var todaysDate = new Date();
-    var currYear = todaysDate.getFullYear();
-    //var ChristmasDate = new Date(currYear, 0, 07);
-    var ChristmasDate = new Date(currYear, 0, 07);
-    if(todaysDate >= ChristmasDate){
-        //var currYear = todaysDate.getFullYear()+1;
-        var ChristmasDate = new Date(currYear+1, 0, 07);
+    var your_date = new Date(yourDate);
+    if(todaysDate >= your_date){
+        return 0;
     }
-    return Math.ceil((ChristmasDate-todaysDate)/3600/24/1000);
+    return Math.ceil((your_date-todaysDate)/3600/24/1000);
 }
-var result = nextChristmas();
+var result = daysLeft('2019,08,16');
 console.log(result);
